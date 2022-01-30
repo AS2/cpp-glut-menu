@@ -1,0 +1,25 @@
+FUNC print1 Print 1
+MENU print 2-4
+{
+FUNC print2 Print 2
+FUNC sayHelloWorld HELLO WORLD!
+MENU print print 3-4-3-4-3-4
+{
+FUNC print3 Print 3
+FUNC print4 Print 4
+FUNC print3 Print 3
+FUNC print4 Print 4
+FUNC print3 Print 3
+FUNC print4 Print 4
+}
+MENU print random number
+{
+MENU print random number
+{
+MENU print random number
+{
+FUNC printRandomNumber Print rand number
+}
+}
+}
+}
